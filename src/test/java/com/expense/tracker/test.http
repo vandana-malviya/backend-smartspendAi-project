@@ -1,0 +1,190 @@
+POST http://localhost:8082/expenses
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0YW51IiwiaWF0IjoxNzc1ODIyMjY3LCJleHAiOjE3NzU4MjU4Njd9.VEgyCc4gKhM6U7TlSHXLagToNxqDE1oFUZ96bgsNKN0
+Content-Type: application/json
+
+
+{
+  "category": "Food",
+  "amount": 500,
+  "date": "2026-03-17"
+}
+
+###
+POST http://localhost:8082/expenses
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0YW51IiwiaWF0IjoxNzc1ODIyMjY3LCJleHAiOjE3NzU4MjU4Njd9.VEgyCc4gKhM6U7TlSHXLagToNxqDE1oFUZ96bgsNKN0
+Content-Type: application/json
+
+
+{
+  "category": "Travel",
+  "amount": 300,
+  "date": "2026-03-17"
+}
+
+###
+POST http://localhost:8082/expenses
+Authorization: Bearer 
+Content-Type: application/json
+
+{
+  "category": "Food",
+  "amount": 200,
+  "date": "2026-03-17"
+}
+###
+GET http://localhost:8082/expenses
+
+
+###
+GET http://localhost:8082/expenses
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0YW51IiwiaWF0IjoxNzc1ODIyMjY3LCJleHAiOjE3NzU4MjU4Njd9.VEgyCc4gKhM6U7TlSHXLagToNxqDE1oFUZ96bgsNKN0
+Content-Type: application/json
+
+{
+  "category": "Shopping",
+  "amount": 1000,
+  "date": "2026-03-17"
+}
+ 
+//Register
+###
+POST http://localhost:8082/user/register
+Content-Type: application/json
+
+{
+  "username": "vandana",
+  "password": "1234"
+}
+
+//Register
+###
+POST http://localhost:8082/user/register
+Content-Type: application/json
+
+{
+  "username": "charvi",
+  "password": "1235"
+}
+
+//Register
+###
+POST http://localhost:8082/user/register
+Content-Type: application/json
+
+{
+  "username": "tanu",
+  "password": "1236"
+}
+
+//Register
+###
+POST http://localhost:8082/user/register
+Content-Type: application/json
+
+{
+  "username": "monu",
+  "password": "1237"
+}
+
+//login
+###
+POST http://localhost:8082/user/login
+Content-Type: application/json
+
+{
+  "username": "monu",
+  "password": "1237"
+}
+
+
+
+
+
+
+
+//login
+###
+POST http://localhost:8082/user/login
+Content-Type: application/json
+
+{
+  "username": "tanu",
+  "password": "1236"
+}
+
+
+
+
+
+
+
+//login
+###
+POST http://localhost:8082/user/login
+Content-Type: application/json
+
+{
+  "username": "vandana",
+  "password": "1234"
+}
+
+
+//login
+###
+POST http://localhost:8082/user/login
+Content-Type: application/json
+
+{
+  "username": "charvi",
+  "password": "1235"
+}
+
+
+
+
+
+
+
+
+###
+DELETE http://localhost:8082/expenses/2
+
+
+
+###
+GET http://localhost:8082/expenses
+Authorization: Bearer 
+###
+GET http://localhost:8082/expenses/top-category
+Authorization: Bearer 
+###
+GET http://localhost:8082/expenses/category-wise
+Authorization: Bearer 
+###
+GET http://localhost:8082/expenses/date/2026-03-17
+Authorization: Bearer 
+
+###
+GET http://localhost:8082/expenses/highest
+Authorization: Bearer 
+###
+GET http://localhost:8082/expenses/monthly
+Authorization: Bearer 
+
+
+###
+GET http://localhost:8082/expenses/python-ai
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0YW51IiwiaWF0IjoxNzc1ODIyMjY3LCJleHAiOjE3NzU4MjU4Njd9.VEgyCc4gKhM6U7TlSHXLagToNxqDE1oFUZ96bgsNKN0
+
+###
+GET http://localhost:8082/expenses/predict
+Authorization: Bearer 
+
+
+###
+GET http://localhost:8082/expenses/compare
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0YW51IiwiaWF0IjoxNzc1ODIyMjY3LCJleHAiOjE3NzU4MjU4Njd9.VEgyCc4gKhM6U7TlSHXLagToNxqDE1oFUZ96bgsNKN0
+
+###
+GET http://localhost:8082/expenses/alert/2000
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0YW51IiwiaWF0IjoxNzc1ODIyMjY3LCJleHAiOjE3NzU4MjU4Njd9.VEgyCc4gKhM6U7TlSHXLagToNxqDE1oFUZ96bgsNKN0
