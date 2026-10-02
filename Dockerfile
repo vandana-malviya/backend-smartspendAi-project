@@ -20,4 +20,3 @@ COPY predict.py ./predict.py
 
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
-
